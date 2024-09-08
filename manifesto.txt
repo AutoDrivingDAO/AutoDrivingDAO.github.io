@@ -1,0 +1,187 @@
+## Platform description / Abstract
+
+short:
+
+Auto Driving DAO is an open-source platform that leverages the power of community to provide cutting-edge, open-source models that accelerate the development and deployment of autonomous driving technologies. 
+
+long:
+
+Autonomous driving technologies are revolutionizing transportation and mobility. The development of data-driven end-to-end autonomous driving models is set to be a groundbreaking technological leap, one that transcends traditional systems, offering unprecedented intelligence, efficiency and reliability. However, the full potential of this technology remains unrealized, primarily because current models are restricted by proprietary and rule-based frameworks. 
+
+**Auto Driving DAO** is an ambitious project aimed at unlocking this potential through open-source collaboration, inviting the global community to join force in creating the most innovative autonomous driving models. This cross-continental collaboration is made possible with [Initial Model Offering](https://mirror.xyz/orablog.eth/xYMD27tN23ppbKCluB9faytF_W6M1hKXTuKcfkm3D50) (IMO), which, by tokenizing the AI model on the blockchain, enables collaborative contribution, efficient resource coordination, and equitable compensation.
+
+## 1. Introduction: **Driving the Future of Mobility**
+
+Autonomous driving is more than just a technological innovation; it is a revolutionary paradigm shift of transportation and mobility poised to drastically redefine our economy and society. The development of native transformer-based  data-driven end-to-end autonomous driving models (e.g. transformer based)  is set to be a groundbreaking technological leap, one that transcends traditional systems, offering unprecedented intelligence, safety, and reliability. However, the full potential of this technology remains unrealized, primarily because current models are restricted by proprietary and rule-based frameworks. The collaborative power of the open-source community will bring us closer to a truly transformative autonomous driving future.
+
+**Open Auto Pilot** is an ambitious project aimed at unlocking this potential through open-source collaboration, inviting the global community to participate in creating the most innovative autonomous driving models. Through the novel approach of [Initial Model Offering](https://mirror.xyz/orablog.eth/xYMD27tN23ppbKCluB9faytF_W6M1hKXTuKcfkm3D50) (IMO), we aspire to tokenize the AI model on the blockchain, while enabling collaborative contribution, efficient resource coordination, and equitable benefits sharing.
+
+## 2. Open Auto Pilot **Initiative: A Collaborative Revolution**
+
+Auto Driving DAO is an initiative to develop fully open-source transformer-native models for autonomous driving. The platform being open-source means we are inviting the global community to contribute to and refine the models, provide crowd-sourced data and computing powers, ensuring that it remains transparent, verifiable, and own-able.
+
+If Tesla were Apple with its closed-source models, AutoDriving DAO will be Android, building open-source foundation models for all vehicles.
+
+### a) Why Open Source?
+
+**1. Efficiency through Shared Investment:**
+
+An open and shared platform prevents unnecessary and duplicated investments by original equipment manufacturers (OEMs). By pooling resources and efforts, OEMs can focus on innovation rather than reinventing the wheel, leading to more efficient use of time and capital, while minimizing computing powers and limiting repeated efforts. (Add: more resource efficient, less CO2).
+
+(Add: ways for car manufacturers to benefit, explained plainly)  
+
+**3. Customizable and Flexible Solutions:**
+
+Unlike proprietary systems like Tesla’s, which offer limited customization, an open-source approach allows OEMs to tailor the solutions to their specific needs. This flexibility ensures that each manufacturer can optimize the technology for their vehicles, creating unique and competitive offerings in the market.
+
+**4. Accelerated Development and Deployment:**
+
+Open-source platforms accelerate the development and deployment of autonomous driving technology. By minimizing the effort required for OEMs to bring products to market, this approach allows for quicker adaptation to market demands and technological advancements.
+
+**5. Access to Wider Data Sources:**
+
+An open-source approach taps into a broader range of data sources, leading to more comprehensive and accurate training data for the AI model. This diversity in data enhances the model's ability to handle real-world driving conditions more effectively.
+
+**6. Collaborative Innovation:**
+
+Open-source fosters collaborative innovation, allowing for the collective intelligence and creativity of the global community contribute to its continuous improvement. This collaboration leads to breakthroughs that might not be possible within the confines of a closed system.
+
+**7. Improved Safety and Reliability:**
+
+Open-source models promote enhanced safety and reliability by leveraging the insights from a wide range of developers and experts. The transparency of the code allows for thorough vetting and testing, reducing the risk of unforeseen issues and improving the overall trustworthiness of the technology.
+
+### b) Why Us?
+
+In the field of autonomous driving, there is yet no mature, deployable open-source systems. This is mainly due to the huge investment needs, long training and testing cycle, and the need of proprietary data, which makes the realization of an open-source self-driving system impossible.
+
+(This is made possible by IMO…explain IMO)
+
+### c) Who Are We? —— **Core Initiators: Academia and Industry Pioneers**
+
+The core initiators of AutoDriving DAO include:
+
+- Academic leaders from world-renowned institutions such as Stanford, bringing cutting-edge research expertise;
+- Industry partners such as Faraday Future, with extensive experience in automotive innovation;
+- Blockchain innovators such as ORA Protocol, providing the blockchain infrastructure for open-source, decentralized governance
+
+**Academic community**: researchers from Stanford University and other academic institutions will be at the forefront of Open Auto Pilot through their past research and experience.
+
+Industry leaders: Faraday Future is the core initiator in the automotive industry, bringing practical experience in the development of Open Auto Pilot and Artificial Intelligence, practical adoption in vehicles, and commercial resources related to OEMs, hardware, software, and data.
+
+Blockchain innovator: ORA Protocol is bringing the trustless and verifiable AI infrastructure on blockchain and Onchain AI Oracle, which will be critical to enable the Initial Model Offering and decentralized governance of Open Auto Pilot. It also has proven track record of the Initial Model Offering, e.g., OLM (OpenLM RevShare Token).  
+
+Bringing open-source solutions is our number one priority. We encourage all researchers and builders to join our community and contribute to the vision.
+
+### d) Technical Architecture
+
+Open Auto Pilot’s model is designed to lead the global shift toward data and AI-model driven end-to-end autonomous driving. Our vision is to empower OEMs worldwide with cutting-edge, open-source solutions that accelerate the development and deployment of autonomous driving technologies.
+
+***i. Model Architecture***
+
+The autonomous driving industry is undergoing a significant transformation, shifting from traditional rule-based systems to data-driven, end-to-end models.
+
+To understand this shift, the difference between rule-based and end-to-end approaches is:
+
+- **Rule-Based Systems**: These rely on predefined rules (dealing with thousands of edge cases like what if plastic bag appears on the road) and algorithms to navigate driving scenarios. While effective in controlled environments, they struggle with the unpredictability of real-world conditions.
+- **End-to-End Systems**: In contrast, end-to-end models are data-driven and leverage AI to learn directly from vast amounts of data. These models interpret sensor data and make driving decisions in real-time, offering a more flexible and robust solution capable of adapting to complex and dynamic driving environments.
+
+However, industry leaders exploring end-to-end model like Tesla, Waymo, Cruise, Baidu, Huawei, SenseTime, and Xpeng are closed-source proprietary companies. Open source implementations like openpilot face shortages in feature supports, resource allocation, and incentive for community. The industry needs a true open-source end-to-end auto driving model.
+
+The Open Auto Pilot’s model is an end-to-end autonomous driving system designed with flexibility and robustness at its core. The architecture integrates multiple input modalities, enabling it to adapt to various sensor configurations. Key components of the model include:
+
+- **Multimodal Perception System:**
+The model integrates multiple input configurations such as vision-only, vision + LiDAR, vision + Radar, and vision + LiDAR + Radar. Each configuration is processed through a unified 3D perception module, which is responsible for understanding the driving environment comprehensively. The perception system is inspired by the "Q-Former" architecture from OmniDrive, where features from various sensors are encoded into a sparse set of 3D queries for efficient processing.
+    
+    ![output.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/4dd8165d-3f4a-440c-acd9-d2c336262377/0d54cf03-bf7a-4aed-b215-8f8acada37c9/output.png)
+    
+- **Query-Based Perception and Reasoning:**
+The Open Auto Pilot utilizes a transformer-based query system to handle 3D perception tasks. Each query represents different aspects of the scene, such as dynamic objects, static map elements, and environmental conditions. These queries are refined through cross-attention mechanisms, aligning perception with the model's reasoning and planning tasks.
+    
+    ![output (1).png](https://prod-files-secure.s3.us-west-2.amazonaws.com/4dd8165d-3f4a-440c-acd9-d2c336262377/2ab64cb8-25c9-4012-9224-48f7c4e23151/output_(1).png)
+    
+- **Large Language Model (LLM) Integration:**
+The model incorporates a Large Language Model (LLM) for advanced reasoning and decision-making. This module interprets the 3D scene understanding provided by the perception system and generates high-level driving decisions. The LLM is pre-trained on extensive datasets and fine-tuned for specific autonomous driving tasks, ensuring it can handle complex scenarios with minimal computational overhead.
+    
+    ![output (2).png](https://prod-files-secure.s3.us-west-2.amazonaws.com/4dd8165d-3f4a-440c-acd9-d2c336262377/26d84089-4acc-4fe2-b61e-e3e8b23a2a91/output_(2).png)
+    
+
+***ii. Driving Policy Generation***
+
+Regardless of the input configuration, the Open Auto Pilot model is designed to produce a reliable driving policy. This involves:
+
+- **3D Perception:**
+The model processes sensor data to create a unified 3D representation of the environment, detecting and tracking dynamic objects, identifying static elements like road boundaries and traffic signs, and understanding the spatial layout.
+- **Contextual Awareness:**
+Using the processed environmental data, the model applies contextual reasoning to make informed decisions. This includes understanding traffic rules, road conditions, and potential future states, facilitated by the integrated LLM.
+- **Decision Making and Planning:**
+The model generates a driving policy that includes path planning, speed regulation, and maneuver decisions. This policy is optimized for safety, efficiency, and adherence to traffic regulations.
+- **Adaptation and Optimization:**
+The model continuously adapts its driving policy based on real-time sensor inputs, allowing it to respond dynamically to changing road conditions, obstacles, and traffic scenarios.
+
+***iii. Blockchain Integration and IMO Tokenization***
+
+To incentivize contributions and ensure continuous improvement, the Open Auto Pilot will be tokenized on the blockchain:
+
+- **IMO Tokenization with ERC-7641**
+    
+    Revenue sharing and tracking will be enabled by the ERC standard of ERC-7641: Intrinsic RevShare Token. It will make sure all the revenue generated from Open Auto Pilot will be shared among token holders and contributors.
+    
+- **Onchain Governance as DAO**
+    
+    The initiators behind Open Auto Pilot will help form the DAO for onchain governance of the development, strategy, and resource allocation of Open Auto Pilot, to make sure all operations of the model will be decentralized in all hands of contributors.
+    
+- **Model Verifiability with opML**
+    
+    With Optimistic Machine Learning, verifiable inference and training can be achieved so that contributions in scenarios such as providing computing power for model training can be rewarded.
+    
+
+### e)  **Business Model: Sustainable Growth Through Open Collaboration**
+
+***i. Core Principles***
+
+- **Open Source as First Principle**: OpenAutoDriving (OAD) models are fundamentally open-source, ensuring transparency, collaboration, and accessibility. All stakeholders, including researchers, developers, and OEMs, can freely access and contribute to the project.
+- **DAO Governance**: Open Auto Pilot will be governed by a DAO, where all actions and operations are decentralized and managed on-chain. This ensures that decisions are made collectively by token holders, fostering a democratic and transparent governance structure.
+- **Tokenization for Incentivization**: We introduce Open Auto Pilot token, which serves multiple purposes within our ecosystem. Investors can hold these tokens to participate in DAO decisions, and contributors (developers, researchers, etc.) are incentivized by the appreciation of these tokens, aligning their interests with the project's success.
+
+***ii. Ecosystem and Stakeholders***
+
+![截屏2024-08-27 下午7.22.42.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/4dd8165d-3f4a-440c-acd9-d2c336262377/32fa8e09-7fee-4d15-9d9f-d89445f05ab4/%E6%88%AA%E5%B1%8F2024-08-27_%E4%B8%8B%E5%8D%887.22.42.png)
+
+1. **Investors**: Investors can buy and hold the Open Auto Pilot token, participating in the DAO and benefiting from the token's potential appreciation as the project grows.
+2. **OEMs**: Original Equipment Manufacturers can utilize the Open Auto Pilot as a foundational autonomous driving model. By contributing valuable data, OEMs can improve the model's performance, creating a positive feedback loop that benefits both the OEMs and the broader community.
+3. **Developers and Researchers**: Aligned developers and researchers are incentivized to contribute to the Open Auto Pilot by receiving tokens for their work. This creates a sustainable ecosystem where contributors are directly rewarded for their input.
+4. **Subscribers and Users**: End-users and subscribers can leverage the advanced capabilities of the Open Auto Pilot in their autonomous driving applications, paying for these services using the Open Auto Pilot token.
+5. **Cloud Computing Providers**: Essential for training the AI models, these providers are paid in tokens, ensuring that computing resources are consistently available for the project.
+
+***iii. Securing Funding and Resources: Computing Power and Data***
+
+The biggest challenge for any open-source project is securing consistent funding, especially for resource-intensive tasks like AI model training. Open Auto Pilot addresses this issue through its IMO (Initial Model Offering) token strategy:
+
+- **Computing Resources**: Training state-of-the-art AI models for autonomous driving requires significant computational power. By paying cloud computing providers in Open Auto Pilot tokens, we ensure that these resources are available when needed.
+- **Data Acquisition**: The quality of an AI model is directly linked to the quality and quantity of the data it is trained on. OEMs and other data contributors are incentivized to share their data in exchange for tokens, ensuring the continuous improvement of the Open Auto Pilot.
+
+The success of the Open Auto Pilot hinges on the availability of high-quality data and substantial computing resources for training and refining the AI models. Our business model is designed to address these needs innovatively and sustainably:
+
+**Data Collection and Contribution**
+
+- **OEMs and FF Data Contribution**: As a foundational model, the Open Auto Pilot will be deployed in real-world driving scenarios by OEMs and FF. As vehicles equipped with our model operate on the roads, they will generate valuable data, including sensor readings, driving patterns, and environmental interactions. This real-time data is crucial for continuously improving the model's performance. OEMs and FF are incentivized to contribute this data back to the Open Auto Pilot ecosystem, as doing so enhances the model's accuracy and reliability, benefiting all stakeholders. These contributions are compensated through the Open Auto Pilot tokens, creating a positive feedback loop where better data leads to better models, which in turn generate more value for all participants.
+- **Gamification of Data Labeling**: To supplement real-world data, we will introduce an innovative approach to data labeling through gamification. We will develop a simulation game where players can engage in simulated driving scenarios that mimic real-world conditions. As players navigate these scenarios, they will perform actions that help label data, such as identifying obstacles, reacting to different traffic conditions, or following specific driving instructions. Players will earn Open Auto Pilot tokens for their participation, making this not only a fun and engaging experience but also a valuable contribution to the model's data pool. This approach democratizes data labeling, turning it into a community-driven effort that enhances the model's training dataset with diverse, high-quality input.
+
+**GPU and Computing Resources**
+
+- **Traditional Computing Service Payments**: To ensure that our AI models are trained on the best available infrastructure, we will initially use traditional cloud computing services. Payments for these services will be made using Open Auto Pilot tokens, aligning our computing resource needs with our decentralized, blockchain-based economy.
+- **Open Data Centers for IMO**: In addition to using external cloud services, we will establish dedicated open data centers equipped with 10,000 GPUs. These data centers will be exclusively available to support the training and development of the Open Auto Pilot through Initial Model Offering. By providing this massive computing power, we ensure that the open-source community has the resources it needs to train and refine the model without the constraints of traditional funding and infrastructure limitations. This approach will attract aligned contributors who are committed to advancing autonomous driving technology within the open-source paradigm. The availability of these resources will also be a strong incentive for developers and researchers to participate in the project, knowing that their contributions will be supported by state-of-the-art computing infrastructure.
+
+## 3. Detailed Roadmap
+
+**[Faraday Future to lead]**
+
+Phase 1: Development of the initial model
+
+Phase 2: Deployment by leading automotive OEMs 
+
+Phase 3: Continuous refinement and roll-out to broader community 
+
+## 4. How to Contribute
+
+**[Add Github Repo and Socials]**
